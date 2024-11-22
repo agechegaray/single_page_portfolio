@@ -1,0 +1,17 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+#navWrapper {
+    grid-row: 1 / span 3;
+    position: relative;
+}
+nav ul {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    li {flex: none;}
+}

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Agustina's Portfolio</title>
+    <meta name="description" content="Single Page Portfolio Assignment">
+    <meta name="author" content="Agustina Echegaray">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+<div id="navWrapper">
+    <nav>
+        <ul>
+            <li class="active"><a href="#about"><img src="images/user-solid.svg"><span>About Me</span></a></li>
+            <li><a href="#education"><img src="images/graduation-cap-solid.svg"><span>Education</span></a></li>
+            <li><a href="#skills"><img src="images/gear-solid.svg"><span>Skills</span></a></li>
+            <li><a href="#projects"><img src="images/briefcase-solid.svg"><span>Projects</span></a></li>
+            <li><a href="#contact"><img src="images/phone-solid.svg"><span>Contact</span></a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+
+       <section id="about">
+            <h1>Agustina Echegaray</h1>
+            <p>Education and Career Portfolio</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                Education is the foundation for personal growth and career success. My academic journey has been a blend
+                of rigorous coursework, hands-on experiences, and opportunities to develop skills that contribute to my professional
+                goals.
+            </p>
+            <div class="education-row">
+                <div class="card">
+                    <h3>High School Diploma</h3>
+                    <p>During high school, I developed a strong interest in Web Design and Development.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Bachelor's Degree</h3>
+                    <p> I am pursuing a Bachelor's Degree in Web Design and Development, focusing on creating user-friendly websites and applications.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Nail Technician License</h3>
+                    <p>Apart from my career, I have a passion for creating intricate designs on nails. I did schooling and received my license.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>
+                My skills reflect a strong foundation in both professional and personal attributes, 
+                allowing me to approach tasks and relationships with confidence and reliability.
+            </p>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Responsibility</h3>
+                    <p>
+                    I take ownership of my tasks and projects, ensuring they are completed efficiently and with the highest 
+                    level of quality. My ability to prioritize and manage responsibilities has allowed me to consistently 
+                    meet deadlines and exceed expectations.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Attention to Detail</h3>
+                    <p>
+                    I have a keen eye for detail, ensuring that every aspect of my work is thorough and accurate. 
+                    This skill has been invaluable in producing precise outcomes and identifying areas for improvement.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3>Trustworthiness</h3>
+                    <p>
+                    Building trust is at the heart of my interactions. I value integrity and reliability, and I strive to 
+                    create meaningful, lasting relationships with colleagues and clients.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Throughout my career, I have worked on diverse projects that reflect my creativity, technical skills, and attention to detail.</p>
+            <div class="projects-row">
+                <div class="card">
+                    <h3>Websites</h3>
+                    <img src="images/project.png" alt="project 1">
+                    <button>Learn More</button>
+                </div>
+
+                <div class="card">
+                    <h3>Brochures</h3>
+                    <img src="images/project.png" alt="project 2">
+                    <button>Learn More</button>
+                </div>
+
+                <div class="card">
+                    <h3>Web Applications</h3>
+                    <img src="images/project.png" alt="project 3">
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Fill out the form below to get in touch with me or inquire about my work.</p>
+            <form method="GET" class="contact-form" autocomplete="on">
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+        
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+        
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+        
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <div class="footer-content">
+            <section class="email">
+                <h3>Email</h3>
+                <p><a href="mailto:agus.echegaray@gmail.com">agus.echegaray@gmail.com</a></p>
+            </section>
+            <section class="social">
+                <h3>Social</h3>
+                <div class="social-icons">
+                <img src="images/facebook.png" alt="facebook">
+                <img src="images/instagram.png" alt="instagram">
+                <img src="images/twitter.png" alt="twitter">
+                <img src="images/linkedin.png" alt="linked in">
+                </div>
+            </section>
+        </div>
+        <p class="legal">&copy; <span id="year">x</span> &bull; Single Page Portfolio &bull; Agustina Echegaray</p>
+    </footer>
+</div>
+<script src="js/scripts.js" type="module"></script>
+</body>
+</html> 
+
+

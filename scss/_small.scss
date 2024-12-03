@@ -74,6 +74,10 @@ nav {
     }   
 }
 
+nav ul li.active a {
+    background-color: darken($menuColor, 10%);
+}
+
 
 /* --------------------------- MAIN --------------------------- */
 main {

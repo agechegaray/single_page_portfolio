@@ -372,6 +372,10 @@ nav ul a:hover {
   background-color: #526582;
 }
 
+nav ul li.active a {
+  background-color: #2a3544;
+}
+
 /* --------------------------- MAIN --------------------------- */
 main h1 {
   padding: 1rem 16px 0.5rem 16px;

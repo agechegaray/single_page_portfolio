@@ -372,7 +372,7 @@ nav ul a:hover {
   background-color: #526582;
 }
 
-nav ul li.active a {
+#navWrapper nav ul li.active a {
   background-color: #2a3544;
 }
 
